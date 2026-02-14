@@ -19,12 +19,4 @@ capabilities = "CAPABILITY_IAM"
 parameter_overrides = "Stage=\"staging\""
 image_repositories = []
 
-[production]
-[production.deploy]
-[production.deploy.parameters]
-stack_name = "production-todo-list-aws"
-s3_prefix = "todo-list-aws"
-region = "us-east-1"
-capabilities = "CAPABILITY_IAM"
-parameter_overrides = "Stage=\"production\""
-image_repositories = []
+
